@@ -89,6 +89,17 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 255, 195, 0.4);
 }
 
+.footer {
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
 @media (max-width: 500px) {
     h1 {
         font-size: 1.5rem;
