@@ -112,12 +112,13 @@ li {
     }
 }
 .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
     width: 100%;
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
-    bottom: 0;
     font-family: 'Times New Roman', Times, serif;
-
+    z-index: 1000; 
 }
