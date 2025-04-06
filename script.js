@@ -29,28 +29,27 @@ function CalcularImc() {
     if (imc <= 18.5) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está abaixo do peso ideal.`;
         imgSrc = 'img/1.png';
-        linkHref = '/lermais/abaixo/index.html'; // abaixo do peso
+        linkHref = 'telas/abaixo.html'; // abaixo do peso
     } else if (imc > 18.5 && imc <= 24.9) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está no peso ideal.`;
         imgSrc = 'img/2.png';
-        linkHref = '/lermais/ideal/index.html' // peso normal
+        linkHref = 'telas/ideal.html' // peso normal
     } else if (imc > 25 && imc <= 29.9) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está acima do peso.`;
         imgSrc = 'img/3.png';
-        linkHref = '/lermais/acima/index.html';
-     // sobrepeso
+        linkHref = 'telas/acima.html' // sobrepeso
     } else if (imc > 30 && imc <= 34.9) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está na obesidade grau I.`;
         imgSrc = 'img/4.png';
-        linkHref = '/lermais/grau1/index.html' // obesidade I
+        linkHref = 'telas/grau1.html' // obesidade I
     } else if (imc > 35 && imc <= 39.9) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está na obesidade grau II.`;
         imgSrc = 'img/5.png';
-        linkHref = '/lermais/grau2/index.html'; // obesidade II
+        linkHref = 'telas/grau2.html'; // obesidade II
     } else if (imc > 40) {
         texto = `Seu IMC é: ${imc.toFixed(2)} - Você está na obesidade mórbida.`;
         imgSrc = 'img/6.png';
-        linkHref = '/lermais/grau3/index.html'; // obesidade III
+        linkHref = 'telas/grau3.html'; // obesidade III
     }
 
     // exibindo mensagem e imagem
